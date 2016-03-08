@@ -1,0 +1,114 @@
+.section{
+    margin: 10px;
+    height: 300px;
+}
+
+html {
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+body {
+    font-family: 'Roboto';
+    background-color: #091b29;
+    color:#0a94c2;
+    font-family: tahoma;
+}
+
+.pageHeader{
+    background-image: url(../images/logo.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 50%;
+    height: 250px;
+    width:100%;
+}
+
+.grid{
+    height: 300px;
+    overflow: auto;
+}
+
+.grid ul{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+.grid li{
+    list-style-type: none;
+    margin: 10px;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+
+.fieldTitle {
+    color: #5491ab;
+    font-weight: bold;
+}
+
+li div.field{
+    background-color:  #122e45;
+    width: 50%;
+    float: left;
+    padding: 10px;
+}
+
+li > div.buttons{
+    background-color:  #122e45;
+}
+
+li > div.buttons > div{
+    display:  initial;
+    cursor: pointer;
+}
+
+.white {
+    color: white;
+}
+
+.white:hover{
+    color: white;
+}
+
+.half{
+    width:50%;
+    position:relative;
+    float:left;
+}
+
+/* Bootstrap overrides */
+
+.pagination > .active > a,
+.pagination > .active > span,
+.pagination > .active > a:hover,
+.pagination > .active > span:hover,
+.pagination > .active > a:focus,
+.pagination > .active > span:focus {
+  background-color: #027FF4;
+  border-color: #027FF4;
+}
+.currentPage{
+    color:red;
+}
+
+.cardContainer .col-md-3 {
+    padding-left: 0px;
+}
+
+
+.close {
+    font-size:15pt;
+    opacity: 1.0;
+}
+
+.errorMessage {
+    /*position:absolute;*/
+    padding: 5px;
+    /*background-color: #E03930;*/
+    color:red;
+    top:0px;
+    left:270px;
+    font-size: 10px;
+    visibility: hidden;
+}
